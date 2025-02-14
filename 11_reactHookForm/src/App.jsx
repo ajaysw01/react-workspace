@@ -1,6 +1,6 @@
-import { useForm } from "react-hook-form";
-
 import "./App.css";
+import { useForm } from "react-hook-form";
+import Login from "./Login";
 
 function App() {
   const {
@@ -18,6 +18,7 @@ function App() {
 
   return (
     <>
+      <Login />
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>First Name:</label>
